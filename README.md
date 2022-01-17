@@ -1,12 +1,12 @@
 # PASSVAULT
-##Why You Need PassVault :
+## Why You Need PassVault :
 It is not safe to use same passwords for all your accounts.
 But it is also hard to remember different passwords for all accounts.
 pass vault comes to the rescue. With passvault you can save all passwords in your own device without the fear of forgetting it.
 passvault utilise the cryptography python module to encrypt passwords so that only you can access the encrypted password with a key.
 This is my first official script . Your support mean world to me.
 
-##PassVault Menu :
+## PassVault Menu :
 - Save a Password
 - Encrypt Password
 - Decrypt Password
@@ -28,13 +28,13 @@ Make sure python is installed in your pc.
 
 Now clone passvault into your device :
 
-`git clone www.`
+`git clone https://github.com/shadirvan/PassVault.git`
 
-`cd dir`
+`cd PassVault`
 
 `pip install -r requirements.txt`
 
-`python3 filename.py`
+`python3 PassVault.py`
 
 ## How to install on termux:
 You need to install several package for the proper working of the script. install them by the following command:</br>
@@ -51,13 +51,13 @@ if your device is aarch64 run following else skip the step
 
 Now You need to clone to script directory using following command :
 
-`git clone`
+`git clone https://github.com/shadirvan/PassVault.git`
 
-`cd dir`
+`cd PassVault`
 
 `pip install -r requirements.txt`
 
-`python3 filename.py`
+`python3 PassVault.py`
 
 ## How to use
 When you install and run program it will open the menu. In the menu first you need to add attest one password. by using the option save a password and follow the instruction.
