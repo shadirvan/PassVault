@@ -32,7 +32,7 @@ Now clone passvault into your device :
 
 `cd PassVault`
 
-`pip install -r requirements.txt`
+`pip install -r requirement.txt`
 
 `python3 PassVault.py`
 
